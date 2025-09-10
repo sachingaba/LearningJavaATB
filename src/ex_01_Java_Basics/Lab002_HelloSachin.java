@@ -4,6 +4,10 @@ public class Lab002_HelloSachin {
 
     public static void main(String[] args) {
         System.out.println("Sachin");
+        System.out.println("Sachin");
+        System.out.println("Sachin"); System.out.println("Sachin"); System.out.println("Sachin");
+
+
     }
 
 
