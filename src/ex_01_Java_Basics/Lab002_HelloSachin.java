@@ -8,8 +8,8 @@ public class Lab002_HelloSachin {
         System.out.println("Sachin");
         System.out.println("Sachin");
         System.out.println("Hello World");
-        System.out.println("Hello World");
-
+        System.out.print("Hello World");
+        System.out.print("Hello World");
     }
 
 
