@@ -13,7 +13,7 @@ public class Lab012_Numeric_Data_Types {
         float f = 31.4f;
         float F1 = 31.4f;
 
-        double d = 3.1231321;
+        double d = 3.123121;
 
         System.out.println(b + s + x + c + phone + phone1 + f + F1 + d);
         System.out.println("b" + s + x + c + phone + phone1 + f + F1 + d);

@@ -19,7 +19,7 @@ public class Lab014_Table_of_9 {
         System.out.println();
         System.out.printf("%d * 7 = %d", T, T*7);
         System.out.println();
-        System.out.printf("%d * 8 = %d\n", T, T*8); // /n can also me used for next line printf  , basically enter
+        System.out.printf("%d * 8 = %d\n", T, T*8); // /n -> can also me used for next line printf  , basically enter
         System.out.printf("%d * 9 = %d\n", T, T*9);
         System.out.printf("%d * 10 = %d", T, T*10);
 

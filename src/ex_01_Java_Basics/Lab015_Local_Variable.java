@@ -18,7 +18,7 @@ public class Lab015_Local_Variable {
         float f = 31.4f;
         float F1 = 31.4f;
 
-        double d = 3.1231321;
+        double d = 3.123131;
 
     }
 }

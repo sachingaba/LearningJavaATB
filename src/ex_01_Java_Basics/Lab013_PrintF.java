@@ -15,7 +15,7 @@ public class Lab013_PrintF {
         System.out.print(a);
         System.out.print(b);
 
-        //Printf
+        //Printf how to use
         // %d  -> int, byte, long , short, - data type
         // %s  -> string
         // %f  -> float, double

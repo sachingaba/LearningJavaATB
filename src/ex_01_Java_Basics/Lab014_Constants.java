@@ -7,7 +7,7 @@ public class Lab014_Constants {
         System.out.println(a);
 
         final int b = 99; //this is constant
-       // b = 101;  java: cannot assign a value to final variable b
+       // b = 101;  java: cannot assign a value to final variable b.
 
         //Final is the keyword which make the variable a constant
 
