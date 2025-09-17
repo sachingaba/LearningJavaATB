@@ -5,5 +5,7 @@ public class Lab017_Non_Primitive_Literals {
         String name = "Sachin";
         int[] array_of_items = new int[10];
 
+        System.out.println(name);
+
     }
 }
