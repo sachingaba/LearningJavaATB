@@ -12,7 +12,7 @@ public class Lab019_Operators_Assignment_Operators {
         System.out.println(a*b); // Multiplication
         System.out.println(a/b); // division
 
-        System.out.println(a/c);
+        System.out.println(a/c); // float result
         System.out.println("a+b"); // String
         System.out.println(a%b); // modulus
 
