@@ -11,7 +11,7 @@ public class Lab047_ID_OP_Decrement {
         System.out.println("Post decrement assigned " + a);  //9
 
         System.out.println("Pre decrement " + --a); //8
-        System.out.println("Pre decrement assigned "+ a);  //8
+        System.out.println("Pre decrement assigned "+ a);  //8 value
 
     }
 }
