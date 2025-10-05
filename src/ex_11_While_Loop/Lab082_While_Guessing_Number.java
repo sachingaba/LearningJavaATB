@@ -11,7 +11,7 @@ public class Lab082_While_Guessing_Number {
         Random random = new Random();
 
         int NumbertoGuess = random.nextInt(101);
-       System.out.println(NumbertoGuess);
+      // System.out.println(NumbertoGuess);
 
         // Create User's no. which will be matched with random number
         Scanner scanner = new Scanner(System.in);
