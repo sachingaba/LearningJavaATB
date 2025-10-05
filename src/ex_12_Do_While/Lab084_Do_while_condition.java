@@ -1,4 +1,4 @@
-package ex_012_Do_While;
+package ex_12_Do_While;
 
 public class Lab084_Do_while_condition {
     public static void main(String[] args) {
