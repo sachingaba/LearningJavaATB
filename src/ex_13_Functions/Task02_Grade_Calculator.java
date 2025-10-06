@@ -20,13 +20,14 @@ public class Task02_Grade_Calculator {
         System.out.println("Enter Num");
         if (!scanner.hasNextInt()) {
             System.out.println("Please enter Integer only");
-        } else {
+         //  scanner.nextInt();
+        }
+        else {
             int Num = scanner.nextInt();
 
-
-
-            if (Num > 100) {
+            if (Num <0 || Num > 100) {
                 System.out.println("Please enter b/w 1 to 100");
+                scanner.nextInt();
             } else if (Num >= 90 && Num <= 100) {
                 System.out.println("Your score is " + Num + " ->Grade A ");
             } else if (Num >= 80 && Num <= 89) {
@@ -36,8 +37,10 @@ public class Task02_Grade_Calculator {
                 System.out.println("Your score is " + Num + " ->Grade C");
             } else if (Num >= 60 && Num <= 69) {
                 System.out.println("Your score is " + Num + " ->Grade D");
-            } else {
+            } else if(Num >= 0 && Num <= 59) {
                 System.out.println("Your score is " + Num + " ->Grade F");
+            }else {
+                System.out.println("You are putting invalid no.");
             }
         }
     }
