@@ -2,7 +2,7 @@ package ex_16_Arrays;
 
 import java.util.Scanner;
 
-public class Lab122_2D_Left_Triangle {
+public class Lab122_2D_Right_Triangle {
     public static void main(String[] args) {
         //Left hand triangle pattern
 
