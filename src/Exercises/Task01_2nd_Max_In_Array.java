@@ -2,7 +2,7 @@ package Exercises;
 
 public class Task01_2nd_Max_In_Array {
     public static void main(String[] args) {
-        int[] array = {25, 14, 65, 89, 56, 54, 6, 12, 585, 15798, 12, 44, 36};
+        int[] array = {25, 14, 65, 89, 56, 54, 6, 12, 585, 585, 12, 44, 36};
 
         /*Arrays.sort(array);
         System.out.println("MIn "+ array[0]);
