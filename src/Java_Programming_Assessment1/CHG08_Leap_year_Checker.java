@@ -2,7 +2,7 @@ package Java_Programming_Assessment1;
 
 import java.util.Scanner;
 
-public class CHG06_Leap_year_Checker {
+public class CHG08_Leap_year_Checker {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int year = readInt(scan, " Enter year");
