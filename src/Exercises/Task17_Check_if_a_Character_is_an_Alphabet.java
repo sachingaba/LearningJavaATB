@@ -2,7 +2,7 @@ package Exercises;
 
 import java.util.Scanner;
 
-public class Task16_Check_if_a_Character_is_an_Alphabet {
+public class Task17_Check_if_a_Character_is_an_Alphabet {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         char ss = readString(scan, "Enter char value");
