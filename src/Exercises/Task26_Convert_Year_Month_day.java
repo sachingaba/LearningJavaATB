@@ -22,10 +22,10 @@ public class Task26_Convert_Year_Month_day {
             year = days/365;
             if ((days%365)>30) {
                 month = (days % 365) / 30;
-                day = (days % 365) % 30;;
+                day = (days % 365) % 30;
             }else{
                 month = 0;
-                day = (days % 365);;
+                day = (days % 365);
             }
 
             System.out.println(year + " Year " + month + " month " + day + " days ");
