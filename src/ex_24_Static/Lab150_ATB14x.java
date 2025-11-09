@@ -9,7 +9,7 @@ public class Lab150_ATB14x {
         System.out.println(j1.getName());
         System.out.println(j1.getPhone());
         j1.readDoc();
-
+         java.course = " java gaba"; // To update the Static variable value
         java j2 = new java();
         j2.readDoc();
     }
