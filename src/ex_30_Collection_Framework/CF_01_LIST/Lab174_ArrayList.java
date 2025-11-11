@@ -1,4 +1,4 @@
-package ex_30_Collection_Framework;
+package ex_30_Collection_Framework.CF_01_LIST;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -11,9 +11,14 @@ public class Lab174_ArrayList {
         list.add("1");
         list.add("2");
         list.add("3");
-        list.add("4");
+        list.add("3");
+        list.add(4);
         list.add(4);
         list.add(true);
+        list.add(0, "sac");
+
+        System.out.println(list);
+        System.out.println(list.get(0));
 
         System.out.println(list.isEmpty());
         System.out.println(list.contains("4"));

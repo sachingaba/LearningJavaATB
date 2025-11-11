@@ -1,4 +1,4 @@
-package ex_30_Collection_Framework;
+package ex_30_Collection_Framework.CF_01_LIST;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,18 @@ public class lab175_List_Creation {
 
         l1.add(1);
         l1.add(1);l1.add(1);l1.add(2);l1.add(2);l1.add(11);
+        l1.add(4,34);
+
+        System.out.println(l1);
 
         // add element at index of
         l2.add(0,"six");
+
+        List l7 = List.of(1,2,3,4,5,"d");
+        System.out.println(l7);
+      /*  l7.add(3,"jk");
+        System.out.println(l7);
+*/
 
         System.out.println(l1.size());
         System.out.println(l1.get(3));
