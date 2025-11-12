@@ -1,11 +1,8 @@
 package ex_30_Collection_Framework.CF_03_QUEUE;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
-public class Lab187_Queue {
+public class Queue_In_LinkedList {
     public static void main(String[] args) {
         Queue q = new PriorityQueue();
         q.add("Sa");
@@ -30,6 +27,16 @@ public class Lab187_Queue {
         System.out.println(q1.poll());
         System.out.println(q1);
 
+        Queue q2 = new ArrayDeque();
+        q2.add(1);
+        q2.add(2);
+        q2.add(3);
+        q2.add(4);
+        q2.add(5);
 
+        List qArr = new LinkedList();
+        qArr.add(q1);
+        qArr.add(q2);
+        System.out.println(qArr);
     }
 }
