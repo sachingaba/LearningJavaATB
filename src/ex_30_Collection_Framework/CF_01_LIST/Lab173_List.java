@@ -30,5 +30,10 @@ public class Lab173_List {
         a1.add(4);
         System.out.println(a1.contains(4));
         System.out.println(a1.contains("lo"));
+
+        List arraymain = new ArrayList();
+        arraymain.add(a1);
+        arraymain.add(arrayList);
+        System.out.println(arraymain);
     }
 }

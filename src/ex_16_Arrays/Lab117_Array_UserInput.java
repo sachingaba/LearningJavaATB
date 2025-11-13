@@ -24,6 +24,7 @@ public class Lab117_Array_UserInput {
             arr_value[i] = scanner.next();
 
         }
+        System.out.println("check + " + arr_value);
 // print the array
         // sort the array before printing
         Arrays.sort(arr_value);

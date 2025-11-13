@@ -6,6 +6,6 @@ public class Lab067_For_Loop_IQ {
             System.out.println(i);
 
         }
-        System.out.println("Codnition false -> End");
+        System.out.println("Condition false -> End");
     }
 }

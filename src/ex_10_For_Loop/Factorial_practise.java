@@ -1,25 +1,24 @@
-package ex_06_Ternary_Operator;
+package ex_10_For_Loop;
 
 import java.util.Scanner;
 
-public class Lab041_TO_Interview {
-
+public class Factorial_practise {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        int n = num(scan, "Enter your number");
+int factorial = 1;
 
-        int x = age(scan , "Enter the value");
-        int y = age(scan,"Enter the value of Y");
+if(n==0){
+    System.out.println("0 not allowed or fact is 1");
+}
+        for (int i = n; i > 0; i--) {
+factorial = factorial *i;
+        }
+        System.out.println(factorial);
 
-        /*int x = 10;
-        int y = 20;*/
-
-        System.out.println(Math.max(x, y));
-
-        String result = x > y ? "X is bigger" : "Y is bigger";
-        System.out.println(result);
     }
 
-    static int age(Scanner scan, String prompt) {
+    static int num(Scanner scan, String prompt) {
         System.out.println(prompt);
         // int input = scan.nextInt();
         if (!scan.hasNextInt()) {

@@ -8,13 +8,12 @@ public class Lab134_Real_MethodOverloading {
     h1.task("kitchen");
 
     }
-    static class Home{
-        void task(){
-            System.out.println("default - clean washroom");
-        }
-        void task(String whichTask){
-            System.out.println("Overloading task " + whichTask);
-        }
-
+} class Home{
+    void task(){
+        System.out.println("default - clean washroom");
     }
+    void task(String whichTask){
+        System.out.println("Overloading task " + whichTask);
+    }
+
 }

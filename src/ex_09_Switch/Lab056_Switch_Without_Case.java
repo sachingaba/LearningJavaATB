@@ -15,6 +15,9 @@ public class Lab056_Switch_Without_Case {
             case 2 :
                 System.out.println("day 2");
                 break;
+
+            default:
+                System.out.println("you entered " + x + "No case match" );
         }
 
 

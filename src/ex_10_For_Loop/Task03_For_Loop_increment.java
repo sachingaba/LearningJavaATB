@@ -5,7 +5,7 @@ public class Task03_For_Loop_increment {
 
         int sum = 0;
         for (int i = 1; i <= 4; i++) {
-            sum += i;
+            sum += i; // sum = sum+i
         }
         System.out.println(sum);
     }
