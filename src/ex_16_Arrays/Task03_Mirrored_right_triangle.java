@@ -1,6 +1,6 @@
 package ex_16_Arrays;
 
-public class Task03_Mirrored_right_triangele {
+public class Task03_Mirrored_right_triangle {
     public static void main(String[] args) {
 int n = 7;
 
