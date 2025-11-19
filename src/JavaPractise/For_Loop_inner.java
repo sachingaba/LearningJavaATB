@@ -9,9 +9,14 @@ public class For_Loop_inner {
         }
         System.out.print("A"); // Will not print
         }
-        for(int i=0; i<3; i++) {
-            if(i == 1) return;
-            System.out.print(i + " "); }
-      //  int x = 0; switch(x) { case 0: System.out.print("Zero "); case 1: System.out.print("One "); default: System.out.print("Default "); }
-       }
+
+
+        outer: for(int i = 0; i < 2; i++) {
+            inner: for(int j = 0; j < 2; j++) {
+            if(j == 1) continue outer;
+            System.out.print(i + "-" + j + " ");
+        }
+        }
+        int x = 3; switch(x) { case 1: System.out.print("One "); break; case 2: System.out.print("Two "); break; } System.out.print("Done");
+         }
 }
