@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bank_Account_Encap {
     public static void main(String[] args) {
         BankAct b1 = new BankAct(1000);
-      ///  System.out.println("Initial balance: "+ b1.getBal());
+      //  System.out.println("Initial balance: "+ b1.getBal());
         Scanner scan = new Scanner(System.in);
 
         int deposit = deposit(scan,"Enter deposit Value");
