@@ -27,8 +27,9 @@ public class Bank_Account_Encap {
 
     static int deposit(Scanner scan, String prompt){
         System.out.println(prompt);
-        if(!scan.hasNextInt() || scan.nextInt()<0){
+        while(!scan.hasNextInt() || scan.nextInt()<=0){
             System.out.println("Enter proper values");
+            scan.nextInt();
         }
         return scan.nextInt();
     }
@@ -43,12 +44,9 @@ public class Bank_Account_Encap {
 
 class BankAct{
     private double bal;
-    public double deposit;
-    public double withdrawal;
 
-    public double getDeposit() {
-        return deposit;
-    }
+
+
 
     public BankAct(double bal) {
         this.bal = bal;
