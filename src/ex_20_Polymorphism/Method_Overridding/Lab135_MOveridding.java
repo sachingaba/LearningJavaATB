@@ -7,7 +7,7 @@ public class Lab135_MOveridding {
         //Run-time Polymorphism
 
         Son s1 = new Son();
-        Son.home();
+        s1.home();
 
         Father f1 = new Father();
         f1.home();
@@ -25,16 +25,16 @@ public class Lab135_MOveridding {
     }
 }
 
-    class Father {
-        static void home() {
+class Father {
+        void home() {
             System.out.println("Father's House");
         }
     }
 
-        class Son extends Father {
-            static void home() {
-                System.out.println("son's House");
-            }
+class Son extends Father {
+        void home() {
+            System.out.println("son's House");
         }
+    }
 
 
