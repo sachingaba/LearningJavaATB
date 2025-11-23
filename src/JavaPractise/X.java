@@ -23,7 +23,7 @@ class Test {
 
 class One {
     void show() {
-        System.out.print("One ");
+        System.out.print("One1 ");
     }
 }
 class Two extends One {
