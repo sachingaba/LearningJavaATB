@@ -27,7 +27,7 @@ class One {
     }
 }
 class Two extends One {
-    void show() { System.out.print("Two ");
+    void show() { System.out.print("Two two ");
     }
 }
 class Three extends Two { }
