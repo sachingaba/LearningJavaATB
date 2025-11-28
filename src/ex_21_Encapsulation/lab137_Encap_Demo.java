@@ -11,7 +11,7 @@ public class lab137_Encap_Demo {
 
 // Private Constructor
 
-        goodvwoLogin gl1 = new goodvwoLogin("sachin","gaba@123");
+        goodVwoLogin gl1 = new goodVwoLogin("sachin","gaba@123");
         //password will not show as it is hidden and private
 
         //System.out.println(gl1.password);
@@ -49,7 +49,7 @@ class vwoLogin{
 
         }
 }
-class goodvwoLogin {
+class goodVwoLogin {
 
     private String username;
     private String password;
@@ -82,7 +82,7 @@ class goodvwoLogin {
 
 
 
-     goodvwoLogin(String username, String password) {
+     goodVwoLogin(String username, String password) {
         this.username = username;
         this.password = password;
 

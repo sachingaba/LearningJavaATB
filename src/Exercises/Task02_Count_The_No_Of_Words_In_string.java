@@ -9,6 +9,7 @@ public class Task02_Count_The_No_Of_Words_In_string {
         String sr = scanner.nextLine();
         String[] count = sr.split(" ");
         System.out.println(count.length);
+
         // Count number of words
         System.out.println(sr);
         System.out.println("Total count of words are " + count.length);
