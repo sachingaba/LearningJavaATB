@@ -9,6 +9,8 @@ int max = array[0];
 int min = array[0];
 int max2 =array[0];
 int min2 = array[0];
+
+
         System.out.println("Array length : "+array.length);
         for (int i = 0; i < array.length; i++) {
             if(array[i]>max){
