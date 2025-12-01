@@ -1,6 +1,6 @@
-package JavaPractise.Method_Overloading;
+package JavaPractise.Method_Overriding;
 
-public class Covairant_Method_Overloading {
+public class Covairant_Method_Overriding {
     public static void main(String[] args) {
 publisher p1 = new publisher();
 
