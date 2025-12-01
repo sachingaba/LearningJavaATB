@@ -13,7 +13,10 @@ public class Lab130_Car {
         car2 c2 = new car2("sachin",2023,2022);
         System.out.println(c2.name);
         System.out.println(c2.model);
-
+        System.out.println("-------------------------------------------");
+        /*
+loginPage l11 = new loginPage();
+        System.out.println(l11);*/
     }
 }
 

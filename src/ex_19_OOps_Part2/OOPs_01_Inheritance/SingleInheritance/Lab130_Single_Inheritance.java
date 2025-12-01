@@ -7,6 +7,7 @@ public class Lab130_Single_Inheritance {
         System.out.println(sachin.gold_f);
        sachin.bhk2();
        sachin.bhk3();
+        System.out.println("Sachin can take father's: " + sachin.gold_f);
        Father f1 = new Father();
         System.out.println(f1.gold_f);
         f1.bhk2();

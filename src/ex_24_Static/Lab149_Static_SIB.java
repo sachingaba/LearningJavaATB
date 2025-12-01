@@ -3,6 +3,8 @@ package ex_24_Static;
 public class Lab149_Static_SIB {
     public static void main(String[] args) {
         A a = new A();
+        System.out.println(A.age);
+        A.m1();
 
     }
 }
