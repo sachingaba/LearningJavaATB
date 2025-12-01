@@ -8,37 +8,55 @@ public class Single_Inheritance {
         Manager m1 = new Manager();
         System.out.println("manager ---- access");
 
-    m1.work();
+        m1.work();
         m1.sal();
         System.out.println("Lets see.. how cost is coming");
-   int cost = m1.cost();
-     System.out.println(cost);
+        int cost = m1.cost();
+        System.out.println(cost);
+
+        m1.bill();
+        ;
+        office o1 = new office() {
+            @Override
+            public void bill() {
+                System.out.println("completing bill interface");
+            }
+
+        };
+        o1.bill();
     }
 }
 class Employee{
     int sal = 45000;
     int bonus = 10000;
 
-    int sal(){
-       System.out.println("total sal: " + (sal+bonus));
-       return sal+bonus;
+    void sal(){
+       System.out.println("Employee sal: " + (sal+bonus));
     }
     void work(){
         System.out.println("Employee");
     }
 }
-class Manager extends Employee{
+class Manager extends Employee implements office{
     int sal = 65000;
     int bonus = 25000;
-    int totale =  super.sal() ;
+    int totale =  super.sal + super.bonus;
 
-    int sal(){
+    void sal(){
 
      System.out.println("Manager's " + (sal+bonus));
-        return 0;
+
     }
     int cost(){
         int total = totale + sal + bonus;
        return total;
     }
+
+    @Override
+    public void bill() {
+        System.out.println("Bill interface");
+    }
+}
+interface office{
+    void bill();
 }
