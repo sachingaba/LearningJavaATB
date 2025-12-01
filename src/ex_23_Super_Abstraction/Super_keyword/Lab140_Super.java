@@ -4,7 +4,7 @@ public class Lab140_Super {
     public static void main(String[] args) {
         FatherG gul = new FatherG();
         SonG Sach = new SonG();
-
+Sach.home();
 
     }
 }
@@ -27,7 +27,7 @@ class SonG extends FatherG{
     void bike(){
         System.out.println("Bike");
     }
-    void newHome(){
+    void home(){
         super.home();// calling father's function
         System.out.println(super.gold);
         this.bike();  // calling own function

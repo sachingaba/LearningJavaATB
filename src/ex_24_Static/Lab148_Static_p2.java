@@ -17,7 +17,8 @@ class ATB{
     }
     static void Attendance(){
         System.out.println("Mark Attendance");
-       // this.ph_no;  --> static can't call not static
+       // this.ph_no;  --> static can't call non-static
+        System.out.println(course);
     }
 
     //calling static variable in non-static function
