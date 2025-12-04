@@ -3,7 +3,7 @@ package ex_24_Static;
 public class Lab150_ATB14x {
     public static void main(String[] args) {
         java j1 = new java();
-        j1.getName();
+        System.out.println(j1.getName());
         j1.setName("Sachin");
         j1.setPhone("64546");
         System.out.println(j1.getName());
