@@ -11,7 +11,7 @@ public class Lab165_Fix_The_First {
         } catch (NumberFormatException | ArithmeticException | ArrayIndexOutOfBoundsException e) {
             System.out.println("Problem");
         } finally {
-            System.out.println("I will alwats be called");
+            System.out.println("I will always be called");
         }
 
     }

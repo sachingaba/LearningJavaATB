@@ -6,7 +6,7 @@ public class Lab160_Try_Catch {
         try {
             s1.trim();
         } catch (Exception e) {
-            System.out.println("Error,  NUll is not allowed to be trimmed");
+            System.out.println("Error,  NUll is not allowed to be trimmed : " + e.getMessage());
         }
 
 

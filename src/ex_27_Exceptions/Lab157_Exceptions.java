@@ -2,7 +2,7 @@ package ex_27_Exceptions;
 
 public class Lab157_Exceptions {
     public static void main(String[] args) {
-        System.out.println("Start of the progrma");
+        System.out.println("Start of the program");
 
         String ip = args[0]; // ArrayIndexOutOfBoundsException  -- if not provides from command line
         int aa = Integer.parseInt(ip); //NumberFormatException -- if text is given and not int

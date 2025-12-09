@@ -11,6 +11,6 @@ public class Lab168_Throw {
             throw new ArithmeticException("HEheh");
 
         }
-        System.gc();  // Garbage collecto
+        System.gc();  // Garbage collector
     }
 }
