@@ -3,7 +3,7 @@ package ex_27_Exceptions;
 import java.util.Scanner;
 
 public class Lab168_Throw {
-    public static void main(String[] args) throws CustomException {
+    public static void main(String[] args) throws Exception{
         Scanner scan = new Scanner(System.in);
 
         if(!scan.next().equalsIgnoreCase("Sachin")){
