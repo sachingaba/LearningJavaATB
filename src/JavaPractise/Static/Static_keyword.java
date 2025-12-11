@@ -26,7 +26,7 @@ class staticMethod{
         System.out.println("I will come on each object creation");
     }
     static{
-        System.out.println("Static sout --> Will come on class loading ");
+        System.out.println("Static --> Will come on class loading ");
     }
 
     static int year =  2025;
