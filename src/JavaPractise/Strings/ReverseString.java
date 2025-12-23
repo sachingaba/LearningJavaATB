@@ -20,7 +20,7 @@ public class ReverseString {
             System.out.print(" "+ c1[j]);
 
         }
-        System.out.println("-------------reverse of String----------------- \n");
+        System.out.println("\n-------------reverse of String----------------- \n");
         String s3 = "hello";
         System.out.println("\n" + s3.length());
         for (int i = s3.length()-1; i >=0; i--) {
