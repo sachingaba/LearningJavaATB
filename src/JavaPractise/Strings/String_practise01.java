@@ -17,5 +17,17 @@ public class String_practise01 {
             System.out.print(newtext[i] + " ");
 
         }
+        System.out.println("\n------------------All char reverse: ");
+
+// all char reverse ---> String to char
+        char[] ch1 = text.toCharArray();
+        for (int i = ch1.length-1; i>=0; i--) {
+            System.out.print(ch1[i]);
+        }
+        System.out.println("\nFor Each Loop: ");
+// for each loop
+        for(char ch : ch1){
+            System.out.print(ch);
+        }
     }
 }
