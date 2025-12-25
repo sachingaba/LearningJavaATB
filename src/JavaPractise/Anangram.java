@@ -37,10 +37,10 @@ public class Anangram {
          char[] c1 = s1.toCharArray();
         char[] c2 = s2.toCharArray();
 
-       /* Arrays.sort(c1);
+        Arrays.sort(c1);
         System.out.println(c1);
         Arrays.sort(c2);
-        System.out.println(c2);*/
+        System.out.println(c2);
 
         return Arrays.equals(c1,c2);
 
