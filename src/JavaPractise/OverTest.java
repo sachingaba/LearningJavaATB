@@ -9,7 +9,8 @@ public class  OverTest {
     }
 
     public static void main(String[] args) {
-        OverTest ot = new OverTest(); ot.print('c');
+        OverTest ot = new OverTest();
+        ot.print(5);
     }
 
 

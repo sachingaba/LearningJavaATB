@@ -23,7 +23,7 @@ public class Fibonacci_UserInput {
     public static int fibsize(Scanner scan, String prompt){
         System.out.println(prompt);
 
-        if(!scan.hasNextInt()){
+        while(!scan.hasNextInt()){
             System.out.println("enter num only");
             scan.nextInt();
 
