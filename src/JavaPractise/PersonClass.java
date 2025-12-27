@@ -18,7 +18,7 @@ public class PersonClass {
     public static void main(String[] args) {
 PersonClass p1 = new PersonClass("John",25);
         PersonClass p2 = new PersonClass("Alice",30);
-        System.out.println(p1.toString() + p2.toString());
+        System.out.println(p1.toString() + "\n" + p2.toString());
 
     }
 
