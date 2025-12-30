@@ -5,13 +5,20 @@ import java.util.Scanner;
 public class Task03_Number_Is_Positive_Or_Negative {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        NumPN(scanner, "Enter Num 1 : ");
+        System.out.println("Enter your number : ");
+        while(scanner.hasNextInt()) {
+            NumPN(scanner);
+        }
+
+            System.out.println("not a number , so cant help ");
+
+
     }
 
-       static void  NumPN(Scanner scanner, String prompt){
-           System.out.println(prompt);
+       static void  NumPN(Scanner scanner){
 
-        if (scanner.hasNextInt()) {
+
+        while(scanner.hasNextInt()) {
 
 
             int num1 = scanner.nextInt();
@@ -21,8 +28,8 @@ public class Task03_Number_Is_Positive_Or_Negative {
             } else {
                 System.out.println("Number is Negative");
             }
-        }else {
-            System.out.println("Please enter Num only");
         }
+            System.out.println("Please enter Num only");
+
     }
 }
