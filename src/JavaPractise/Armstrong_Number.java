@@ -33,7 +33,7 @@ static boolean Armstrong_check(Scanner scan , String Prompt) {
         num_og = num_og/10;
 
     }
-    System.out.println("sum of cube of all the numbers : " + arm);
+    System.out.println("sum of all the numbers : " + arm);
         return num== arm;
     }
 
