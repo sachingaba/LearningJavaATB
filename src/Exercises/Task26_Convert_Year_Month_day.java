@@ -11,11 +11,12 @@ public class Task26_Convert_Year_Month_day {
         int month = 0;
         int day = 0;
         if (days<30) {
+            day = days;
             System.out.println(year + " Year " + month + " month "+ day + " days ");
         }
-        else if (days<365){
-            month = days/30;
-            day = days%30;
+        else if (days<365 && days>335){
+            month = 11;
+            day = days-335;
             System.out.println(year + " Year " + month + " month "+ day + " days ");
         }else if (days>365)
         {
