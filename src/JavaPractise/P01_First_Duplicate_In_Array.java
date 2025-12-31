@@ -18,14 +18,26 @@ public class P01_First_Duplicate_In_Array {
             }
             System.out.println("Max " + max);
 
-            int[] nums = {1, 0, 3, 2, 4, 5,1};
+            int[] nums = {1, 0, 3, 2, 4, 5,1 , 1 , 0};
 
             for (int i = 0; i < nums.length; i++) {
+                if(nums[i]<0){
+
+                    continue;
+                }
+                int count = 1;
                 for (int kj = i + 1; kj < nums.length; kj++) {
+
                     if (nums[i] == nums[kj]) {
-                        System.out.println("Duplicate: " + nums[i]);
+                        count++;
+                        nums[kj] = -1;
+
                     }
                 }
+                if(count>1){
+                    System.out.println("Duplicate: " + count + " " + nums[i]);
+                }
+
             }
 
 
