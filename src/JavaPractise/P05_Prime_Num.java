@@ -6,29 +6,12 @@ public class P05_Prime_Num {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int x = readInt(scan, "Enter Number");
+        //  long x = readInt(scan, "Enter Number");
+        System.out.println(isprime(scan, "enter the number"));
 
-        if (x == 0 || x == 1) {
-            System.out.println("No prime");
-        }
-        if (x==3){
-            System.out.println("prime No.");
-        }
-
-        for (int i = 2; i <= x / 2; ++i) {
-            System.out.println( x / 2);
-            if (x % i == 0) {
-                System.out.println("No");
-                break;
-            } else {
-                System.out.println("prime");
-                break;
-            }
-
-        }
     }
 
-    static int readInt(Scanner scan, String prompt) {
+    static long readInt(Scanner scan, String prompt) {
         System.out.println(prompt);
         if (scan.hasNextInt()) {
             return scan.nextInt();
@@ -39,5 +22,30 @@ public class P05_Prime_Num {
 
         }
     }
+
+    static boolean isprime(Scanner scan, String prompt) {
+        System.out.println(prompt);
+        int x = scan.nextInt();
+        if (x == 0 || x == 1)
+            //  System.out.println("No prime");
+            return false;
+
+        if (x == 3) {
+            System.out.println("prime No.");
+            return true;
+        }
+
+        for (int i = 2; i * i <= x; i++) {
+            if (x % i == 0) {
+                System.out.println("No");
+                System.out.println("Divisible by : " + i);
+                return false;
+            }
+            }
+
+
+        return true;
+    }
 }
+
 
