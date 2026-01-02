@@ -6,9 +6,9 @@ import java.util.List;
 public class Lab181_LinkedList {
     public static void main(String[] args) {
 
-        List ll = new LinkedList<>();
+        List<Object> ll = new LinkedList<>();
         ll.add("kk");
-        LinkedList ll1 = new LinkedList();
+        LinkedList<Object> ll1 = new LinkedList();
         ll1.add(1);
         ll1.add(3);
 // add on first position
@@ -21,7 +21,7 @@ public class Lab181_LinkedList {
 
 
 
-          List ll2 = List.of("aa","bb","cc");
+          List<String> ll2 = List.of("aa","bb","cc");
         //Exception will come here
          // ll2.add("565");
 

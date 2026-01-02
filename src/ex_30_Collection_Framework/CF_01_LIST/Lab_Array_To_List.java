@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Lab_Array_To_List {
     public static void main(String[] args) {
-        String arr[] = {"sachin","gaba","java"};
-        String arr2[] = {"sachin2","gaba2","java2"};
+        String[] arr = {"sachin","gaba","java"};
+        String[] arr2 = {"sachin2","gaba2","java2"};
 
 
         List<String> list = new ArrayList<>();
