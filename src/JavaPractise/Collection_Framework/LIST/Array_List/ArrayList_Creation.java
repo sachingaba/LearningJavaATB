@@ -15,11 +15,13 @@ public class ArrayList_Creation {
         fruits.add("tomato");
         fruits.add("pineapple");
         fruits.add("onions");
+       fruits.add(null);
+        fruits.add("onions");
 
 
         System.out.println(fruits);
         System.out.println("Sorted here: ---------------------------->");
-        Collections.sort(fruits);
+       // Collections.sort(fruits);
         System.out.println(fruits);
         System.out.println("Remove vegetable here: ------------------>");
         fruits.remove("onions");

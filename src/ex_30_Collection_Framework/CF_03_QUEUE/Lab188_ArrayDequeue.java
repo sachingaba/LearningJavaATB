@@ -16,6 +16,7 @@ public class Lab188_ArrayDequeue {
         System.out.println(dq);
         System.out.println(dq.poll());
         System.out.println(dq.peek());
+        System.out.println(dq);
 
 
 

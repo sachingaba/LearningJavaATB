@@ -23,7 +23,7 @@ public class Lab185_SET_HS_LHS_TS {
         System.out.println(hs);
 
         System.out.println("-------------------------Linked Hashset----------------------");
-        Set lhs = new LinkedHashSet<>();
+        Set<Object> lhs = new LinkedHashSet<>();
         // Hashing mechanish to store elements,
         //no duplicates
         // Order will be maintained

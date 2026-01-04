@@ -16,7 +16,7 @@ public class ArrayList_Size {
         arrayList.add(5);
         arrayList.add(6);
         arrayList.add(7);
-
+        arrayList.add(7);
         System.out.println(arrayList);
         System.out.println(arrayList.size());
 
@@ -28,7 +28,7 @@ public class ArrayList_Size {
         vector.add(5);
         vector.add(6);
         vector.add(7);
-
+        vector.add(7);
         System.out.println(vector);
 
         List<Object> linked = new LinkedList<>();

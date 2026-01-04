@@ -18,5 +18,6 @@ public class LInkedList_Creation {
         System.out.println(l1);
 
 
+
     }
 }
