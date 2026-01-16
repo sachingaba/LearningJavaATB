@@ -28,7 +28,7 @@ public class Lab197_Comparator {
             System.out.println(Emp);
 
     }
-} class Employee2 implements Comparable<Employee2>{
+} class Employee2 implements Comparator<Employee2>{
     int id;
     String name;
     int sal;
@@ -70,10 +70,11 @@ public class Lab197_Comparator {
 
 
 
+
+
     @Override
-    public int compareTo(Employee2 o) {
-        // return this.id-o.id;
-        return this.name.compareTo(o.name);
+    public int compare(Employee2 o1, Employee2 o2) {
+        return this.name.compareTo(o2.name);
     }
 }
 
