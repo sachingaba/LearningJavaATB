@@ -24,7 +24,7 @@ public class ArrayReverse {
 
         }
         System.out.println("");
-        System.out.println("Here is the reverse : ");
+        System.out.println("Here is the reverseRight : ");
         for (int j = i-1; j >=0 ; j--) {
             System.out.print(arr[j] + " ");
 
