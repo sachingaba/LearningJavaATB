@@ -59,6 +59,10 @@ class comp{
         System.out.println(l1);
         Collections.sort(l1);
         System.out.println(l1);
+            l1.toArray();
+        System.out.println(l1);
+
+        
 
     }
 }

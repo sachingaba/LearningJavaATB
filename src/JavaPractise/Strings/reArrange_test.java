@@ -10,7 +10,9 @@ public class reArrange_test {
 
         String Input = "-1,4,3,-4,-3,5,1,2,-2";
 
+
         String[] inputs = Input.split(",");
+
         Integer[] arr = new Integer[inputs.length];
 
         StringBuilder sneg = new StringBuilder();
@@ -26,8 +28,12 @@ public class reArrange_test {
                 sneg.append(arr[i] + ",");
 
             } else {
+if(i!=arr.length-1){
+    spos.append(arr[i] + ",");
+}else{
+    spos.append(arr[i]);
+}
 
-                spos.append(arr[i] + ",");
 
             }
 
@@ -35,6 +41,8 @@ public class reArrange_test {
         }
         String arranged = sneg.append(spos).toString();
         System.out.println(arranged);
+
+
         List l2 = new ArrayList<>();
         List l1 = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
@@ -54,6 +62,7 @@ public class reArrange_test {
         List l3 = new ArrayList<>();
         l3.addAll(l1);
         l3.addAll(l2);
+
 
 
         String s1 = l3.toString();
