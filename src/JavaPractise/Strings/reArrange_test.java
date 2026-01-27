@@ -12,7 +12,7 @@ public class reArrange_test {
 
 
         String[] inputs = Input.split(",");
-
+//int[] arr1 = new int[]{Integer.parseInt(Input)};
         Integer[] arr = new Integer[inputs.length];
 
         StringBuilder sneg = new StringBuilder();
@@ -40,6 +40,7 @@ if(i!=arr.length-1){
 
         }
         String arranged = sneg.append(spos).toString();
+
         System.out.println(arranged);
 
 
