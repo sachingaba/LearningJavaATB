@@ -1,4 +1,4 @@
-package JavaPractise.Strings;
+package JavaPractise.AA_InterviewQuestions;
 
 import java.util.ArrayList;
 import java.util.List;

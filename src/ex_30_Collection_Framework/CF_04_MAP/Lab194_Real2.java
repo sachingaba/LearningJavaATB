@@ -16,6 +16,10 @@ public class Lab194_Real2 {
         Credentials.put("pass","admin@123");
 
         System.out.println(Credentials);
+String url = Credentials.get("username");
+        System.out.println( url);
+
+
 
 
 
