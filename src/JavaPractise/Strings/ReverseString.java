@@ -4,7 +4,9 @@ public class ReverseString {
     public static void main(String[] args) {
         String S1 = "hello my name is SachiN";
         String[] s2 = S1.split(" ");
-
+StringBuilder sb = new StringBuilder(S1);
+sb.reverse();
+        System.out.println("SB: "+ sb);
 
         System.out.println("-------------reverse of String array----------------- \n");
         for (int i = s2.length-1; i >=0; i--) {
@@ -12,7 +14,7 @@ public class ReverseString {
 
 
             }
-        System.out.println("");
+        System.out.println("\n");
         // reverse whole string with char
         System.out.println("-------------reverse of String array with char----------------- \n");
         char[] c1 = S1.toCharArray();
@@ -25,7 +27,7 @@ public class ReverseString {
         String s3 = "hello";
         System.out.println("\n" + s3.length());
         for (int i = s3.length()-1; i >=0; i--) {
-            System.out.println(s3.charAt(i) + " : - Postion string: "+ i);
+            System.out.println(s3.charAt(i) + " : - Position string: "+ i);
 
         }
     }

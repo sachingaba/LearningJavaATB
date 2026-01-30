@@ -57,7 +57,7 @@ class sachin extends automation implements ids,access{
   
 }
 interface ids{
-    public void id();
+    void id();
 
 }
 interface access{
