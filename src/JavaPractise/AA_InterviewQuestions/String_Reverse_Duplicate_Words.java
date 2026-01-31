@@ -1,0 +1,32 @@
+package JavaPractise.AA_InterviewQuestions;
+
+public class String_Reverse_Duplicate_Words {
+    public static void main(String[] args) {
+
+
+        String a1 = "I am good person in india and otherss word good word";
+
+        // reverse only the repeated words
+
+        String[] arr = a1.split(" ");
+
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+
+                String s1= arr[i];
+
+                if(arr[i].equalsIgnoreCase(arr[j])){
+                    StringBuilder sb1 = new StringBuilder(arr[i]);
+                    StringBuilder sb2 = new StringBuilder(arr[j]);
+                    arr[i]= sb1.reverse().toString();
+                    arr[j]= sb2.reverse().toString();
+
+                }
+
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+ " ");
+        }
+    }
+}
