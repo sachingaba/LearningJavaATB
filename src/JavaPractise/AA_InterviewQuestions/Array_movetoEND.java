@@ -16,6 +16,7 @@ public class Array_movetoEND {
             }
 
         }
+
         while(p < arr.length){
             arr[p]=1;
             p++;
