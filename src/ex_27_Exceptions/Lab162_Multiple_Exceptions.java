@@ -8,11 +8,9 @@ public class Lab162_Multiple_Exceptions {
             int b= 10/a;
 
             s.trim();
-        } catch (ArithmeticException e) {
+        } catch (ArithmeticException | NullPointerException e) {
             System.out.println(e.getMessage());
-        }catch (NullPointerException e) {
-            System.out.println(e.getMessage());
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
 
