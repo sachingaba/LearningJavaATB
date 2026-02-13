@@ -1,5 +1,6 @@
 package JavaPractise;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayEqual_ForLoop {
@@ -20,6 +21,7 @@ public class ArrayEqual_ForLoop {
         }else{
             System.out.println("Length not Equal");
         }
+        System.out.println(Arrays.equals(arr,arr1));
     }
     static int[] arrRead(Scanner scanner, String prompt){
         System.out.println(prompt);

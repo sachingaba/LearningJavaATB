@@ -27,7 +27,6 @@ static boolean Armstrong_check(Scanner scan , String Prompt) {
             num_og = num_og/10;
         }*/
     while(num_og!=0) {
-
         int remainder = num_og%10;
         arm = (int) (arm + Math.pow(remainder,length));
         num_og = num_og/10;
