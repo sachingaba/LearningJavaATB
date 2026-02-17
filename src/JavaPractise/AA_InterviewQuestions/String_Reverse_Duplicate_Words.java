@@ -16,9 +16,9 @@ public class String_Reverse_Duplicate_Words {
                 String s1= arr[i];
 
                 if(arr[i].equalsIgnoreCase(arr[j])){
-                    StringBuilder sb1 = new StringBuilder(arr[i]);
+                  //  StringBuilder sb1 = new StringBuilder(arr[i]);
                     StringBuilder sb2 = new StringBuilder(arr[j]);
-                    arr[i]= sb1.reverse().toString();
+                    arr[i]= new StringBuilder(arr[i]).reverse().toString();
                     arr[j]= sb2.reverse().toString();
 
                 }

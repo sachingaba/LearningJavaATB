@@ -8,7 +8,7 @@ public class Array_Rotate_K_Position {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         int k = 3;
         //full rotate
-
+k = k%arr.length;
         rotateHelper(arr,  arr.length-k, arr.length-1);
 
         rotateHelper(arr, 0, arr.length-k-1);

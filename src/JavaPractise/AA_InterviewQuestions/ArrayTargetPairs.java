@@ -14,6 +14,7 @@ public class ArrayTargetPairs {
             for (int j = i+1; j <arr.length ; j++) {
                 if(arr[i]+ arr[j]==5){
                     count++;
+                    System.out.println(arr[i]+ " "+ arr[j]);
                 }
             }
 
@@ -27,9 +28,12 @@ public class ArrayTargetPairs {
         for(int num:arr){
             if(set.contains(target-num)){
                 count++;
+                System.out.println(num + " " + (target-num));
             }
             set.add(num);
+
         }
+
         System.out.println("count of pairs: " + count);
     }
 }

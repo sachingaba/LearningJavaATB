@@ -25,13 +25,13 @@ public class DuplicateCharinStringRemove {
             if(ch[i]=='-'){
                 continue;
             }
-            for (int j = i+1; j < s1.length(); j++) {
+            for (int j = i+1; j < ch.length; j++) {
                 if(ch[i]==ch[j]){
    ch[j]='-';
                 }
 
             }
-            sb.append(s1.charAt(i));
+            sb.append(ch[i]);
 
 
         }
