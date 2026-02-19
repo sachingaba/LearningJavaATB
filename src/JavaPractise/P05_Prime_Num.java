@@ -7,7 +7,12 @@ public class P05_Prime_Num {
         Scanner scan = new Scanner(System.in);
 
         //  long x = readInt(scan, "Enter Number");
-        System.out.println(isprime(scan, "enter the number"));
+      if(isprime(scan, "enter the number")){
+          System.out.println("Prime Number");
+
+      }else {
+          System.out.println("Not Prime Number !!");
+      }
 
     }
 
@@ -30,10 +35,7 @@ public class P05_Prime_Num {
             //  System.out.println("No prime");
             return false;
 
-        if (x == 3) {
-            System.out.println("prime No.");
-            return true;
-        }
+
 
         for (int i = 2; i * i <= x; i++) {
             if (x % i == 0) {

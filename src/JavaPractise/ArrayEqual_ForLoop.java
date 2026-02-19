@@ -9,9 +9,11 @@ public class ArrayEqual_ForLoop {
 
         int[] arr = arrRead(new Scanner(System.in),"Enter your array 1");
         int[] arr1 = arrRead(new Scanner(System.in),"Enter your array 2");
+        Arrays.sort(arr);
+        Arrays.sort(arr1);
         if (arr.length == arr1.length) {
             for (int i = 0; i < arr.length; i++) {
-                if (!(arr[i] == arr1[i])) {
+                if ((arr[i] != arr1[i])) {
                     System.out.println("not equal");
                     System.exit(0);
                 }

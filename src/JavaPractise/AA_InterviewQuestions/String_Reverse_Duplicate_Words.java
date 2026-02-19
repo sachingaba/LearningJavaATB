@@ -1,10 +1,11 @@
 package JavaPractise.AA_InterviewQuestions;
 
+import java.util.Arrays;
+
 public class String_Reverse_Duplicate_Words {
     public static void main(String[] args) {
 
-
-        String a1 = "I am good person in india and otherss word good word";
+        String a1 = "I am good person in india and others word good word";
 
         // reverse only the repeated words
 
@@ -25,6 +26,7 @@ public class String_Reverse_Duplicate_Words {
 
             }
         }
+        System.out.println(" Array To String: "+ Arrays.toString(arr));
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+ " ");
         }

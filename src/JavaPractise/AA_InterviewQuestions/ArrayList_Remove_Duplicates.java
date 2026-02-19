@@ -9,6 +9,7 @@ public class ArrayList_Remove_Duplicates {
         for(int i=0;i<arr.size();i++){
             int count =1;
             for(int j=i+1;j<arr.size();j++){
+
                 if(Objects.equals(arr.get(i), arr.get(j))){
                     count++;
                     arr.remove(j);
@@ -21,7 +22,7 @@ public class ArrayList_Remove_Duplicates {
         }
         System.out.println(arr);
 
-        HashSet<Integer> h1 = new HashSet<>(arr1);
+        LinkedHashSet<Integer> h1 = new LinkedHashSet<>(arr1);
 
         System.out.println(h1);
 
