@@ -3,8 +3,6 @@ package JavaPractise.Collection_Framework.SET;
 import java.util.Set;
 
 public class HashSet {
-    public HashSet(char[] ch) {
-    }
 
     public static void main(String[] args) {
 

@@ -15,7 +15,7 @@ public class HashMap_Ex1 {
         System.out.println(h1.containsKey(1));
         System.out.println(h1.containsValue(null));
 
-        System.out.println(h1.get(0));  // returns the value of the key .. null if no suck key is present
+        System.out.println(h1.get(0));  // returns the value of the key .. null if no such key is present
         System.out.println(h1.get("Name:"));
         System.out.println(h1.keySet());
         System.out.println(h1.values());

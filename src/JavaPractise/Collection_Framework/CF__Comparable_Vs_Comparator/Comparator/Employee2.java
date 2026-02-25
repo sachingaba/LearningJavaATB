@@ -65,7 +65,7 @@ class company{
         List emp = new ArrayList<>();
         emp.add(new Employee2("Sachin", 34, 80000));
         emp.add(new Employee2("Rahul", 31, 75000));
-        emp.add(new Employee2("king", 45, 90000));
+        emp.add(new Employee2("king", 19, 90000));
 
         System.out.println(emp);
 
