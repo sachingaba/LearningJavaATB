@@ -18,5 +18,6 @@ public class String_Alternate_UpperCase {
             }
         }
         System.out.println(Arrays.toString(ch));
+
     }
 }
