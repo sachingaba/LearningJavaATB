@@ -29,7 +29,7 @@ class staticMethod{
         System.out.println("Static --> Will come on class loading ");
     }
 
-    static int year =  2025;
+ protected static int year =  2025;
     static String course = "Java";
 
     public staticMethod(String name) {
