@@ -1,4 +1,4 @@
-package JavaPractise.Array;
+package JavaPractise.AA_InterviewQuestions;
 
 import java.util.PriorityQueue;
 
