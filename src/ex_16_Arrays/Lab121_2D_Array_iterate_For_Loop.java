@@ -4,7 +4,7 @@ public class Lab121_2D_Array_iterate_For_Loop {
     public static void main(String[] args) {
         int[][] matrix =
                 {
-                {1,2,3},
+                {1,2,3,44},
                 {4,5,6},
                 {7,8,9}
                 };

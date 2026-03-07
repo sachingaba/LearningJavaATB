@@ -10,7 +10,7 @@ public class car {
         car() {
             name = "UnknownCAR";
             model = "XXX";
-            year = 0;
+            year = 2016;
             System.out.println("DC");
 
 
