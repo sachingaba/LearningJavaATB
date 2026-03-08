@@ -4,7 +4,7 @@ public class LongestSubString {
     public static void main(String[] args) {
         String s1 = "sachinGabaishereforyoutoteanchyouJava";
 
-        char[] ch = s1.toCharArray();
+        char[] ch = s1.toLowerCase().toCharArray();
         int max=0;
         String sub = "";
         for (int i = 0; i < ch.length; i++) {
