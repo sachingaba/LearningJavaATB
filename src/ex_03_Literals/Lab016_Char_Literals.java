@@ -29,6 +29,7 @@ public class Lab016_Char_Literals {
         System.out.println("Sachin"+ tab_line +"Gaba");
         System.out.println("Sachin"+ back_space +"Gaba");
         System.out.println(c1);
+        System.out.println("Sachin"+carriage_return+"Gaba");
 
 
 
