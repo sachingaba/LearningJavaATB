@@ -34,7 +34,9 @@ public class ConvertTo_TitleCase {
         StringBuilder sb = new StringBuilder();
 
         for (String word : words) {
-        sb .append(Character.toUpperCase(word.charAt(0))).append(word.substring(1).toLowerCase()).append(" ");
+        sb.append(Character.toUpperCase(word.charAt(0)))
+                .append(word.substring(1).toLowerCase())
+                .append(" ");
 
         }
         //System.out.println(sb);
