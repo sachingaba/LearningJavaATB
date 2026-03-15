@@ -5,16 +5,16 @@ import java.util.Set;
 
 public class Array_Duplicate_Hashset {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,1,2};
+        int[] arr = {1,2,3,4,1,2,3};
 
         Set<Integer> sh =new HashSet<>();
-        for(int i=0;i<arr.length;i++){
+        for (int j : arr) {
 
-            if(sh.contains(arr[i])){
-                System.out.println("Duplicate:" + arr[i]);
+            if (sh.contains(j)) {
+                System.out.println("Duplicate:" + j);
 
-            }else{
-                sh.add(arr[i]);
+            } else {
+                sh.add(j);
             }
         }
 

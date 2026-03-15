@@ -10,16 +10,16 @@ public class Abstraction_practise {
         }
 
 abstract  class automation{
- String usernmae;
+ String username;
  String password;
 
-    public automation(String usernmae, String password) {
-        this.usernmae = usernmae;
+    public automation(String username, String password) {
+        this.username = username;
         this.password = password;
     }
 
     void auto(){
-        System.out.println("AUTOMation auto method");
+        System.out.println("Automation auto method");
     }
     abstract void abs();
 
