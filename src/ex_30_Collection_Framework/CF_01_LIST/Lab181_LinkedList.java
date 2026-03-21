@@ -1,5 +1,6 @@
 package ex_30_Collection_Framework.CF_01_LIST;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -32,7 +33,8 @@ public class Lab181_LinkedList {
         ll.remove("ea");
         System.out.println(ll);
         System.out.println(ll1);
-
+        Collections.reverse(ll1);
+        System.out.println(ll1);
 
         System.out.println(ll2);
 
