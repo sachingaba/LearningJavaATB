@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public classLab192_Map_Real {
+public class Lab192_Map_Real {
     public static void main(String[] args) {
         Map<String,Object> map = new HashMap<>();
 

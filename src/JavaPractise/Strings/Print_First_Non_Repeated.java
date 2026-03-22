@@ -2,20 +2,15 @@ package JavaPractise.Strings;
 
 public class Print_First_Non_Repeated {
     public static void main(String[] args) {
-        String s1= "softwares";
+        String s1= "sooftwares";
 
         for (int i = 0; i < s1.length(); i++) {
-            int count=0;
-            for (int j = i+1; j < s1.length(); j++) {
-                if(s1.charAt(i)==s1.charAt(j)){
-                    count++;
-                }
+            char ch = s1.charAt(i);
 
-            }
-            if(count==0){
-                System.out.println("First NON-Repeated: "+s1.charAt(i));
-                break;
-            }
+          if(ch!=' ' && s1.indexOf(ch)==s1.lastIndexOf(ch)){
+              System.out.println("here it is : " + ch);
+              break;
+          }
 
         }
     }
