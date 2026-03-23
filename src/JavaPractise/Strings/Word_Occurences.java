@@ -6,7 +6,7 @@ public class Word_Occurences {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-         occCheck("hello my name is sachin hello my na hello", "hello");
+         occCheck("hello my name is sachin hello my na hello", "bugff");
         System.out.println("Enter your line and word");
 
 countCheck(scanner.nextLine(),scanner.next());
@@ -39,8 +39,10 @@ String[] arr = text.split(" ");
             map.put(arr[i], map.getOrDefault(arr[i],0)+1);
 
         }
-        System.out.println(map.get(word));
-
-
+        if(map.containsKey(word)) {
+            System.out.println(map.get(word));
+        }else{
+            System.out.println("Not Available");
+        }
     }
 }
