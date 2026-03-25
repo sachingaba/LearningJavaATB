@@ -6,16 +6,16 @@ import java.util.*;
 public class String_LongesSubstring_Set {
 
     public static void main(String[] args) {
-        String s1 = "mynameissachingaba";
+        String s1 = "mynameissachin";
 
         int left=0;
         int right=0;
         int maxlength=0;
         String maxStr ="";
-Map<String ,Integer> map = new HashMap<>();
+Map<String ,Integer> map = new LinkedHashMap<>();
 
 
-        Set<Character> set = new HashSet<>();
+        Set<Character> set = new LinkedHashSet<>();
 
         while(right<s1.length()){
             char c = s1.charAt(right);
