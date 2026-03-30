@@ -11,7 +11,7 @@ public class Count_Vowels_Using_Map {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Line: ");
 
-        String s1 = scanner.next();
+        String s1 = scanner.nextLine();
 
         char[] arr = s1.toLowerCase().toCharArray();
 

@@ -3,7 +3,7 @@ package JavaPractise.AA_InterviewQuestions.RegexQuestions;
 public class String_Remove_Digits {
     public static void main(String[] args) {
 
-        String s1 = "Sachin1234e";
+        String s1 = "Sac25hin1234c";
 
          s1 = s1.replaceAll("[0-9]+","c");
         System.out.println(s1);

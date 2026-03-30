@@ -1,11 +1,12 @@
 package JavaPractise.AA_InterviewQuestions.RegexQuestions;
 
 import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class String_Remove_Duplicates {
     public static void main(String[] args) {
         String s1 = "Programming";
-
         for (char c : s1.toCharArray()) {
             if (s1.indexOf(c) != s1.lastIndexOf(c)) {
                 s1 = s1.replace(c, ' ');
@@ -37,6 +38,14 @@ public class String_Remove_Duplicates {
         }
         System.out.println(Arrays.toString(ch));
         System.out.println(sb);
+
+        //Second Way:
+        Set<Character> set = new LinkedHashSet<>();
+        for(char c: s2.toCharArray()) {
+            set.add(c);
+        }
+        System.out.println(set);
+
     }
 
 }
