@@ -4,7 +4,7 @@ public class Single_Inheritance {
     public static void main(String[] args) {
         Employee e1 = new Employee();
         e1.sal();
-
+e1.work();
         Manager m1 = new Manager();
         System.out.println("manager ---- access");
 
@@ -15,15 +15,6 @@ public class Single_Inheritance {
         System.out.println(cost);
 
         m1.bill();
-        ;
-        office o1 = new office() {
-            @Override
-            public void bill() {
-                System.out.println("completing bill interface");
-            }
-
-        };
-        o1.bill();
     }
 }
 class Employee{
@@ -34,7 +25,7 @@ class Employee{
        System.out.println("Employee sal: " + (sal+bonus));
     }
     void work(){
-        System.out.println("Employee");
+        System.out.println("Employee's Work");
     }
 }
 class Manager extends Employee implements office{
@@ -55,6 +46,9 @@ class Manager extends Employee implements office{
     @Override
     public void bill() {
         System.out.println("Bill interface");
+    }
+    void work(){
+        System.out.println("Manager's Work");
     }
 }
 interface office{

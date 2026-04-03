@@ -6,6 +6,7 @@ public class Heirarichical {
         System.out.println("// Father's objects------------->");
         father s1 = new sachin();
         System.out.println(s1.bhk);
+        s1.work();
 
         father s2 = new sagar();
         System.out.println(s2.bhk);
@@ -23,6 +24,9 @@ class father{
     int bhk = 3;
     father(){
         System.out.println("Father's Home");
+    }
+    void work(){
+        System.out.println("=============father's work=============");
     }
 }
 class sachin extends father{
