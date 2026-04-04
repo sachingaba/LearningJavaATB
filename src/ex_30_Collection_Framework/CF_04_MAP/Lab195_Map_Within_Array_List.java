@@ -25,7 +25,7 @@ public class Lab195_Map_Within_Array_List {
 
         System.out.println(Student2);
 
-        List students = new ArrayList<>();
+        List<Object> students = new ArrayList<>();
         students.add(Student1);
         students.add(Student2);
         System.out.println(students );

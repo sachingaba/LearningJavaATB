@@ -12,6 +12,8 @@ public class Static_keyword {
 //final class object
         student s1 = new student();
         System.out.println(s1.loc);
+        s1.loc="canada";
+        System.out.println(s1.loc);
 
 // Updating static variables
         staticMethod.year = 2026;

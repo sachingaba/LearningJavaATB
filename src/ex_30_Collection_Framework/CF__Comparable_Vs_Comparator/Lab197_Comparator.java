@@ -18,6 +18,7 @@ public class Lab197_Comparator {
             Emp.add(new Employee2("SacG", 1,2000));
             System.out.println(Emp);
 
+
             Comparator<Employee2> nameComparator = (e1, e2) -> e1.name.compareTo(e2.name);
             Comparator<Employee2> idComp = (e1,e2) -> e1.id-e2.id;
             Comparator<Employee2> salComp = (e1,e2) -> e1.sal-e2.sal;

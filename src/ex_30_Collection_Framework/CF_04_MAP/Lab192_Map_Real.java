@@ -18,10 +18,10 @@ public class Lab192_Map_Real {
 
         Map<String,Object> map2 = new LinkedHashMap<>();
 
-        map2.put("name", "Sachin");
-        map2.put("Phone", "864341");
+        map2.put(null, "Sachin");
+        map2.put(null, "864341");
         map2.put("Address", "gurgaon");
-        map2.put("Hometown", "Sirsa");
+        map2.put("Hometown", null);
 
         System.out.println(map2);
 

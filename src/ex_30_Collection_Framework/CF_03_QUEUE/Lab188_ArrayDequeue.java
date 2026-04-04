@@ -6,7 +6,7 @@ import java.util.Deque;
 public class Lab188_ArrayDequeue {
     public static void main(String[] args) {
 
-        Deque dq = new ArrayDeque<>(5);
+        Deque<Object> dq = new ArrayDeque<>(5);
         dq.push("a");
         dq.add(5);
         dq.add(7);

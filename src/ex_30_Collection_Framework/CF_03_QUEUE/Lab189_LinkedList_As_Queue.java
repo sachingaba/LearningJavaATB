@@ -6,7 +6,7 @@ import java.util.Queue;
 public class Lab189_LinkedList_As_Queue {
 
     public static void main(String[] args) {
-        Queue qq = new LinkedList<>();
+        Queue<Object> qq = new LinkedList<>();
 
         qq.peek();
         qq.add(5);

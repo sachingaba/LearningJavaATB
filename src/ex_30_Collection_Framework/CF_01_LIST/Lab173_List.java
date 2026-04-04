@@ -23,6 +23,7 @@ public class Lab173_List {
         System.out.println(arrayList.contains(1));
         System.out.println(arrayList.contains(true));
         System.out.println("Index of 4.5 : "  + arrayList.indexOf(4.5));
+        System.out.println(arrayList.reversed());
 
         ArrayList a1 = new ArrayList<>();
         a1.add("hello");

@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Lab182_Stack {
     public static void main(String[] args) {
-        Stack st = new Stack<>();
+        Stack<Object> st = new Stack<>();
         st.add("sachin1");
         st.add("sachin2");
         st.add("sachin3");st.add("sachin4");

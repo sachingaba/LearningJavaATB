@@ -11,6 +11,7 @@ public class Lab_Array_To_List {
 
 
         List<String> list = new ArrayList<>();
+
         List<String> list3 = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
