@@ -5,8 +5,9 @@ public class String_Remove_Digits {
 
         String s1 = "Sac25hin1234c";
 
-         s1 = s1.replaceAll("[0-9]+","c");
+         s1 = s1.replaceAll("[0-9]+","");
         System.out.println(s1);
+
 
         String s2 = "Sachin1234e";
 
