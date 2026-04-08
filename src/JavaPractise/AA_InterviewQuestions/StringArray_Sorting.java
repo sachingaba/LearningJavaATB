@@ -23,6 +23,8 @@ public class StringArray_Sorting {
 
 
         }
+
         System.out.println(Arrays.toString(arr));
+
     }
 }
