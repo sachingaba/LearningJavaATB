@@ -3,9 +3,9 @@ package JavaPractise.AA_InterviewQuestions.RegexQuestions;
 public class String_Remove_Digits {
     public static void main(String[] args) {
 
-        String s1 = "Sac25hin1234c";
+        String s1 = "Sac25hin1234c1";
 
-         s1 = s1.replaceAll("[0-9]+","");
+         s1 = s1.replaceAll("[0-9]","");
         System.out.println(s1);
 
 
