@@ -1,6 +1,6 @@
 package HackerRank_Practise.HackerRank_30DaysOfCode;
 import java.util.*;
-public class HackerRank_30_Days_Day18 {
+ class HackerRank_30_Days_Day18 {
 
 
 }
