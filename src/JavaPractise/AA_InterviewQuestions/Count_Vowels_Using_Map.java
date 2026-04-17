@@ -18,9 +18,11 @@ public class Count_Vowels_Using_Map {
         Map<Character,Integer> map = new HashMap<>();
         List<Character> vowels = List.of('a','e','i','o','u');
         int total =0;
+        int totalvowel = 0;
         for(char c:arr){
             if(vowels.contains(c)){
                 map.put(c,map.getOrDefault(c,0)+1);
+                totalvowel++;
             }
 
         }
@@ -31,6 +33,7 @@ public class Count_Vowels_Using_Map {
 
         }
         System.out.println(total);
+        System.out.println(totalvowel);
 
 
 
