@@ -11,7 +11,7 @@ public class Lab171_Generetics_Part1 {
         }
 
     static <d> d tempSum(d a, d b){
-
+      //  System.out.println(a);
         return null;
     }
 
