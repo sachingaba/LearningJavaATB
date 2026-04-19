@@ -19,5 +19,15 @@ public class String_Reverse {
                 right--;
             }
         System.out.println(Arrays.toString(arr));
+
+            int x = 121;
+        String xy = String.valueOf(x);
+        StringBuilder sb = new StringBuilder(xy);
+        sb = sb.reverse();
+        if(xy.contentEquals(sb)){
+            System.out.println("true");
+        }
+
     }
 }
+

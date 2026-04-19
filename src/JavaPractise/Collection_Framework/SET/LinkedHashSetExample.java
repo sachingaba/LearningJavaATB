@@ -14,6 +14,7 @@ public class LinkedHashSetExample {
   s1.removeFirst();
   s1.remove(5);
   // One null allowed
+
   s1.add(null);
   s1.add(null);
         s1.addLast("Kill");
