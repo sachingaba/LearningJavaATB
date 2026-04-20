@@ -1,10 +1,7 @@
 package JavaPractise.AA_InterviewQuestions;
 
 
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Array_Target_Way2 {
     public static void main(String[] args) {
@@ -25,19 +22,28 @@ public class Array_Target_Way2 {
           }
       }
 
-      //for positions of nums
-        Map<Integer,Integer> map = new LinkedHashMap<>();
+      //for positions of nums - LIST
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 0; i <arr.length ; i++) {
+            list.add(arr[i]);
+          if(list.contains(target-arr[i])) {
+              System.out.println(i + ":" + list.indexOf((target - arr[i])));
+              System.out.println(arr[i] + "+" + (target - arr[i]));
+          }
+
+          }
+
+        System.out.println(list);
+//for positions of nums - Map
+Map<Integer,Integer> map = new HashMap<>();
         for (int i = 0; i <arr.length ; i++) {
             map.put(arr[i],i);
-          if(map.containsValue(target-arr[i])) {
-              System.out.println(i + ":" + map.get(target - arr[i]));
-          }
+            if(map.containsKey(target-arr[i])) {
+                System.out.println(i + ":" + map.get((target - arr[i])));
 
-          }
+            }
 
-        System.out.println(map
-        );
-
-
+        }
+        System.out.println(map);
     }
 }
