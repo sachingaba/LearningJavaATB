@@ -11,13 +11,10 @@ public class Array_Duplicate_Hashset {
         Set<Integer> sh =new HashSet<>();
         for (int j : arr) {
 
-            if (sh.contains(j)) {
-                System.out.println("Duplicate:" + j);
 
-            } else {
                 sh.add(j);
             }
-        }
+
         System.out.println(Arrays.toString(sh.toArray()));
 
     }

@@ -19,6 +19,7 @@ public class Array_Target_Way2 {
               System.out.println(num + " " + (target-num));
           }else{
               set.add(num);
+              System.out.println(Arrays.toString(set.toArray()));
           }
       }
 
