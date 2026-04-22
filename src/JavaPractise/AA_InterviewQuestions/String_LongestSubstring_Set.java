@@ -1,9 +1,8 @@
 package JavaPractise.AA_InterviewQuestions;
 
-import java.security.Key;
 import java.util.*;
 
-public class String_LongesSubstring_Set {
+public class String_LongestSubstring_Set {
 
     public static void main(String[] args) {
         String s1 = "mynameissachin";
