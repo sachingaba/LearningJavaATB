@@ -11,8 +11,9 @@ public class String_Duplicate_Words {
                 System.out.println(s1);
                 break;
             }
-        }
-
+            }
+int result = Math.abs(2147483647/2);
+        System.out.println(result);
 
 
 

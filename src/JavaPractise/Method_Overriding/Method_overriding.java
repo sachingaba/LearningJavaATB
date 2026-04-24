@@ -7,7 +7,7 @@ public class Method_overriding {
         System.out.println("-----------------------");
         son s1 = new son();
         s1.home();
-        s1.gold();
+        son.gold();
         System.out.println("-----------------------");
         parent p3 = new son();
         p3.home();
