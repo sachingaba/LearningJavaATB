@@ -1,6 +1,7 @@
 package JavaPractise.AA_InterviewQuestions;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class Array_Reverse_Methods {
 
@@ -16,6 +17,10 @@ int j=0;
             j++;
         }
         System.out.println(Arrays.toString(array));
+        String rev = Stream.of(s1.split("")).reduce("",(a, b)-> b+a);
+        System.out.println(rev);
+
+
 
     }
 }
