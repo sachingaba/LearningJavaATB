@@ -1,6 +1,7 @@
 package JavaPractise.AA_InterviewQuestions;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class Array_longest_Element {
 
@@ -9,6 +10,9 @@ public class Array_longest_Element {
         String[] arr = s1.split(" ");
         String res = Arrays.stream(arr).reduce("",(a, b)->a.length()>b.length()?a:b);
         System.out.println(res);
+
+       String s3 = Stream.of(s1.split(" ")).reduce("",(a, b)->a.length()>b.length()?a:b);
+        System.out.println("Longest: " + s3);
 
 
         int maxLen = Arrays.stream(arr)

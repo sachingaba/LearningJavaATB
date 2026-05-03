@@ -18,7 +18,7 @@ public class String_Find_DuplicateCharacters {
         Set<Character> set = new HashSet<>();
         for(char c: s1.toCharArray()){
             if(set.contains(c)){
-                System.out.println("Duplicate: " + c);
+                System.out.println(">>>Duplicate: " + c);
             }else{
                 set.add(c);
             }

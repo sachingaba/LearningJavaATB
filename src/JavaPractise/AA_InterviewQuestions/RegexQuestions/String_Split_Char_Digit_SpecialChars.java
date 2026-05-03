@@ -5,6 +5,7 @@ import com.sun.security.jgss.GSSUtil;
 public class String_Split_Char_Digit_SpecialChars {
     public static void main(String[] args) {
         String s1 = "WelcometoInfosys@1234";
+        System.out.println(s1.matches("[a-zA-Z0-9@]+"));
 
         String Characters = s1.replaceAll("[^a-zA-Z]","");
         String Digits = s1.replaceAll("[^0-9]","");

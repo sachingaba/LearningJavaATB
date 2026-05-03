@@ -28,7 +28,7 @@ public class String_Reverse_OutputLength {
         int length = sArray[0].length();
         int length2 = sArray[1].length();
         String rev = Stream.of(s2.split("")).reduce("",(a, b)->b+a);
-       // System.out.println(rev);
+       System.out.println(rev);
         System.out.println(rev.substring(0,length)+" "+rev.substring(length,length+length2)+" "+ rev.substring(length+length2));
 
 

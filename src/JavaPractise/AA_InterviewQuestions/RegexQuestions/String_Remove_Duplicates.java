@@ -3,6 +3,7 @@ package JavaPractise.AA_InterviewQuestions.RegexQuestions;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.stream.Stream;
 
 public class String_Remove_Duplicates {
     public static void main(String[] args) {
@@ -14,9 +15,11 @@ public class String_Remove_Duplicates {
             }
         }
         System.out.println(s1);
+        String s2 = "Programming";
+
 
         //For Output : Programin
-        String s2 = "Programming";
+       // String s2 = "Programming";
         char[] ch = s2.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < ch.length; i++) {
