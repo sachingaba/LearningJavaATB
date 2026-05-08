@@ -1,9 +1,6 @@
 package JavaPractise.AA_InterviewQuestions;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Count_Vowels_Using_Map {
     public static void main(String[] args) {
@@ -31,9 +28,11 @@ public class Count_Vowels_Using_Map {
         for(Map.Entry<Character,Integer> entry:map.entrySet()){
             total += entry.getValue();
 
+
         }
         System.out.println(total);
         System.out.println(totalvowel);
+        System.out.println(Collections.max(map.values()));
 
 
 
