@@ -6,7 +6,7 @@ public class Array_2d_MaxValue {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1,3,5,9},
-                {2,4,6},
+                {2,74,96},
                 {32,65,8}
 
         };
