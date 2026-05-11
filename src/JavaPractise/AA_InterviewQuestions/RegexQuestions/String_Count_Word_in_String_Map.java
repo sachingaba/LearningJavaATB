@@ -13,9 +13,11 @@ public class String_Count_Word_in_String_Map {
         Map<String ,Integer> map = new HashMap<>();
 String word = "sam";
         for(String s : arr) {
-                map.put(s, map.getOrDefault(s, 0) + 1);
+                map.put(s, map.getOrDefault(s, s.length()));
         }
        // for(Map.Entry<String , Integer> entry : map.entrySet()){
+        System.out.println(map);
+        System.out.println((Collections.max(map.values())));
         System.out.println(map.get(word));
       //  }
     }
