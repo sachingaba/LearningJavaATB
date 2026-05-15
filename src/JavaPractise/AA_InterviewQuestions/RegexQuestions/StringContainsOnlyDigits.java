@@ -5,10 +5,11 @@ public class StringContainsOnlyDigits {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
         String s1 = "123";
-        String s2 = "123abc1";
+        String s2 = "123Abc1";
 //check if String contains only digits
         boolean bol = s1.matches("^[0-9]+$");
-        boolean bol2 = s2.matches("^[0-9]+$");
+        //Alphanumeric
+        boolean bol2 = s2.matches("^[0-9a-zA-Z]+$");
 
         System.out.println("bol1: " + bol);
         System.out.println("bol2: " + bol2);

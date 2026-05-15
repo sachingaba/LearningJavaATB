@@ -6,6 +6,7 @@ public class String_Remove_WhiteSpace {
         String s1 = "J a v a";
 
         s1 = s1.replaceAll("[' ]","");
+
         System.out.println(s1);
     }
 }

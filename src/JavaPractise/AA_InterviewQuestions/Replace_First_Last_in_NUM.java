@@ -18,8 +18,8 @@ public class Replace_First_Last_in_NUM {
         }
         System.out.println(digits);
         int lastDigit = og_num%10;
-        System.out.println(first);
-        System.out.println(lastDigit);
+        System.out.println("First: "+first);
+        System.out.println("Last: "+lastDigit);
 
         int middle =(int) (((og_num-(first*(Math.pow(10,(digits-1))))))-lastDigit)/10;
 
