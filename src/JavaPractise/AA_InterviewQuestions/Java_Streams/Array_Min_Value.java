@@ -2,6 +2,7 @@ package JavaPractise.AA_InterviewQuestions.Java_Streams;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Array_Min_Value {
@@ -10,5 +11,8 @@ public class Array_Min_Value {
 
         int min = Arrays.stream(arr).min().orElseThrow();
         System.out.println(min);
+
+        int min2 =   IntStream.of(arr).min().orElseThrow();
+        System.out.println(min2);
     }
 }

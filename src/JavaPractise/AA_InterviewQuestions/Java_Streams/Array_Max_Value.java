@@ -10,5 +10,7 @@ public class Array_Max_Value {
 
         int max = Arrays.stream(arr).max().orElseThrow();
         System.out.println(max);
+
+
     }
 }
