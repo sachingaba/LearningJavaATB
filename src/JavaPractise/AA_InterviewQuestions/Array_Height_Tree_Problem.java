@@ -18,6 +18,7 @@ public class Array_Height_Tree_Problem {
             }
         }
         System.out.println(visibleCount);
+        System.out.println(maxHeight);
 
     }
 }

@@ -4,7 +4,8 @@ public class String_Pattern_Result {
 
     public static void main(String[] args) {
 
-        String s1 = "A1n2ki2a0aa1";
+        String s1 = "A1nn2ccc1dd4e5";
+                //"A1n2ki2a0aa1";
 
         //Output: Annkikiaa
         StringBuilder sb = new StringBuilder();

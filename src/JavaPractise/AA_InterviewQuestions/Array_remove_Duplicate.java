@@ -8,6 +8,7 @@ public class Array_remove_Duplicate {
 
         int num = 12344321;
 
+
         String s1 = String.valueOf(num);
         char[] ch = s1.toCharArray();
 
@@ -25,5 +26,6 @@ public class Array_remove_Duplicate {
 
         }
         System.out.println(Arrays.toString(ch));
+        System.out.println(new String(ch));
     }
 }

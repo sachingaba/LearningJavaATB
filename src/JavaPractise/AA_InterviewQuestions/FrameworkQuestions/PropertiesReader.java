@@ -9,14 +9,14 @@ public class PropertiesReader {
 
 
     public static String getKey(String Key){
-        Properties p;
+        Properties p = new Properties();
 
         String path = System.getProperty("user.dir")+ "src/JavaPractise/AA_InterviewQuestions/FrameworkQuestions/data.properties";
 
         try {
             FileInputStream fis= new FileInputStream(path);
 
-            p = new Properties();
+      //      p = new Properties();
             p.load(fis);
         } catch (IOException e) {
             throw new RuntimeException(e);

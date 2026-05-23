@@ -1,8 +1,6 @@
 package JavaPractise.AA_InterviewQuestions;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Array_Duplicate_Hashset {
     public static void main(String[] args) {
@@ -16,6 +14,8 @@ public class Array_Duplicate_Hashset {
             }
 
         System.out.println(Arrays.toString(sh.toArray()));
+        System.out.println(sh);
+        System.out.println(sh.toString());
 
     }
 }

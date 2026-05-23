@@ -35,6 +35,7 @@ public class String_Duplicate_SET {
                 System.out.println("No Duplicate found: " + ch[i]);
             }
         }
+        System.out.println(new String(ch).replace("1",""));
     }
 }
 

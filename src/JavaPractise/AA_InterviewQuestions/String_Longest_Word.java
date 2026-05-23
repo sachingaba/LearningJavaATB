@@ -1,5 +1,8 @@
 package JavaPractise.AA_InterviewQuestions;
 
+import java.util.Comparator;
+import java.util.stream.Stream;
+
 public class String_Longest_Word {
     public static void main(String[] args) {
 
@@ -24,8 +27,10 @@ public class String_Longest_Word {
         System.out.println(longest);
         System.out.println("  --- Next ---");
 
-
-
+String long1 = Stream.of(a1.split(" ")).max(Comparator.comparingInt(String::length)).orElse(" ");
+        System.out.println(long1);
+String min = Stream.of(a1.split(" ")).min(Comparator.comparingInt(String::length)).orElse("");
+        System.out.println(min);
 
 
     }
