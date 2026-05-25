@@ -1,4 +1,4 @@
-package JavaPractise;
+package JavaPractise.AA_InterviewQuestions;
 
 public class String_reversal_withLength {
 
@@ -21,8 +21,17 @@ public class String_reversal_withLength {
         String rev = sb.substring(0,4)+" "+sb.substring(4);
         System.out.println(rev);
 
-
-
+       // ==========================================================================//===================================
+StringBuilder result = new StringBuilder();
+int initial = 0;
+int len = 0;
+for(String s : s1.split(" ")){
+    len += s.length();
+    String word = sb.substring(initial , len);
+    initial = len;
+    result.append(word).append(" ");
+}
+        System.out.println(result);
     }
 
 }

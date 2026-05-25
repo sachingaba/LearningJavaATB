@@ -1,4 +1,4 @@
-package JavaPractise.AA_InterviewQuestions;
+package JavaPractise.AA_InterviewQuestions.Java_Streams;
 
 import java.util.*;
 import java.util.stream.Collectors;
