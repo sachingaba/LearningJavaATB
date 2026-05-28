@@ -29,7 +29,7 @@ for(String s : s1.split(" ")){
     len += s.length();
     String word = sb.substring(initial , len);
     initial = len;
-    result.append(word).append(" ");
+    result.append(Character.toUpperCase(word.charAt(0))).append(word.substring(1)).append(" ");
 }
         System.out.println(result);
     }

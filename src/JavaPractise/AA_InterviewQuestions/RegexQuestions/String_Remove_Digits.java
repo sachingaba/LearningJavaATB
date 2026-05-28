@@ -13,5 +13,7 @@ public class String_Remove_Digits {
 
         s2 =s2.replaceAll("[^a-zA-Z]","");
         System.out.println(s2);
+      s2 =   s2.replaceAll("[aeiou]","");
+        System.out.println("replace: "+ s2);
     }
 }
