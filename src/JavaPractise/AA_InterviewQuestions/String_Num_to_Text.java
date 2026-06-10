@@ -20,6 +20,7 @@ public class String_Num_to_Text {
 
             System.out.print(value + " ");
             len--;
+
         }
     }
 }
