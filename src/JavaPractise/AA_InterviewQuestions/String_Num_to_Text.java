@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class String_Num_to_Text {
     public static void main(String[] args) {
-        System.out.println("Start small. Ship something.");
+
 
         int input = 58697;
         int len = String.valueOf(input).length();
