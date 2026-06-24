@@ -14,7 +14,6 @@ public class ReverseString_Two_Pointer {
                 char temp = ch[l];
                 ch[l] = ch[r];
                 ch[r]= temp;
-
                 l++;
                 r--;
 
