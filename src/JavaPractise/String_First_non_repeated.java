@@ -2,7 +2,6 @@ package JavaPractise;
 
 public class String_First_non_repeated {
     public static void main(String[] args) {
-        System.out.println("Start small. Ship something.");
 
         String x = "mynameIsSachin";
 
