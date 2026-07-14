@@ -23,6 +23,5 @@ public class String_First_non_repeated {
         }
         System.out.println(new String(arr));
 
-
     }
 }
