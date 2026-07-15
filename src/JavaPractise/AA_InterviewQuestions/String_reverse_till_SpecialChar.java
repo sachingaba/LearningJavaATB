@@ -18,10 +18,5 @@ public class String_reverse_till_SpecialChar {
             }
         }
         System.out.println(sb);
-
-
-
-
-
     }
 }
