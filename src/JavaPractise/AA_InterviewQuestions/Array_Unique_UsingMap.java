@@ -25,7 +25,6 @@ public class Array_Unique_UsingMap {
 //
 //        }
 
-
         Map<Integer,Integer> m1 = new HashMap<>();
         for(int mo:mon){
             m1.put(mo,m1.getOrDefault(mo,0)+1);
