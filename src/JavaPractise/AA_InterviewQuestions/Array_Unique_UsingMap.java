@@ -21,8 +21,6 @@ public class Array_Unique_UsingMap {
 //            if(count==1){
 //                System.out.println(mon[i]);
 //            }
-//
-//
 //        }
 
         Map<Integer,Integer> m1 = new HashMap<>();
