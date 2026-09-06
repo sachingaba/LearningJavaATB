@@ -29,8 +29,6 @@ public class Array_Unique_UsingMap {
         }
         System.out.println(m1);
 
-
-
         for (Map.Entry<Integer,Integer> entry: m1.entrySet()){
             if(entry.getValue()==1){
                 System.out.println(entry.getKey());
